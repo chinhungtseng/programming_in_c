@@ -10,7 +10,7 @@
 
 * [Chapter 4](chapter_4/chapter_4.md): Program Looping
 
-* Chapter 5: Making Decisions
+* [Chapter 5](chapter_5/chapter_5.md): Making Decisions
 
 * Chapter 6: Working with Arrays
 
