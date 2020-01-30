@@ -1,6 +1,8 @@
 # Programming in C 
 
-`Programming in C 4th Edition` by Stephen G.Kochan
+My exercise solutions for the books `Programming in C 4th Edition` written by Stephen G.Kochan
+
+## Chapter
 
 * Chapter 1: Some Fundamentals
 

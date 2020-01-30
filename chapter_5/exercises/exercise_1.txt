@@ -1,0 +1,6 @@
+1. Type in and run the 12 programs presented in this chapter.
+  Compare the utput produced by each program with the output 
+  presented after each program in the text.
+  Try experimenting with each program by deying in values other
+  than those shown.
+  
