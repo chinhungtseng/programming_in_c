@@ -4,7 +4,7 @@
 
 * Chapter 1: Some Fundamentals
 
-* Chapter 2: Compiling and Running Your First Program
+* [Chapter 2](chapter_2/chapter_2.md): Compiling and Running Your First Program
 
 * Chapter 3: Variables, Data Types, and Arithmetic Expressions
 
