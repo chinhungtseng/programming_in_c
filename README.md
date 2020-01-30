@@ -6,9 +6,9 @@
 
 * [Chapter 2](chapter_2/chapter_2.md): Compiling and Running Your First Program
 
-* Chapter 3: Variables, Data Types, and Arithmetic Expressions
+* [Chapter 3](chapter_3/chapter_3.md): Variables, Data Types, and Arithmetic Expressions
 
-* Chapter 4: Program Looping
+* [Chapter 4](chapter_4/chapter_4.md): Program Looping
 
 * Chapter 5: Making Decisions
 
