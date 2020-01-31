@@ -12,8 +12,8 @@ int main(void)
     do
     {
         right_digit = number % 10;
-	printf("%i", right_digit);
-	number /= 10;
+	    printf("%i", right_digit);
+	    number /= 10;
     }
     while (number != 0);
 
