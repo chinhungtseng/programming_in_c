@@ -14,7 +14,7 @@ My exercise solutions for the books `Programming in C 4th Edition` written by St
 
 * [Chapter 5](chapter_5/chapter_5.md): Making Decisions
 
-* Chapter 6: Working with Arrays
+* [Chapter 6](chapter_6/chapter_6.md): Working with Arrays
 
 * Chapter 7: Working with functions
 
