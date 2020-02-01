@@ -16,7 +16,7 @@ My exercise solutions for the books `Programming in C 4th Edition` written by St
 
 * [Chapter 6](chapter_6/chapter_6.md): Working with Arrays
 
-* Chapter 7: Working with functions
+* [Chapter 7](chapter_7/chapter_7.md): Working with functions
 
 * Chapter 8: Working with Structures
 
