@@ -1,0 +1,4 @@
+1. Type in and run the 17 program presented in this chapter.
+   Compare the output produced by each program with the output 
+   presented after each program in the text.
+   
