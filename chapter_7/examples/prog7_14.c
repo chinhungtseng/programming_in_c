@@ -1,5 +1,5 @@
 /*
- * Program 7.14 ultidimensional Variable-Length Arrays
+ * Program 7.14 Multidimensional Variable-Length Arrays
  */
 
 #include <stdio.h>
