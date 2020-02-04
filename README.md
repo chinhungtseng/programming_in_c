@@ -18,7 +18,7 @@ My exercise solutions for the books `Programming in C 4th Edition` written by St
 
 * [Chapter 7](chapter_7/chapter_7.md): Working with functions
 
-* Chapter 8: Working with Structures
+* [Chapter 8](chapter_8/chapter_8.md): Working with Structures
 
 * Chapter 9: Charater Strings
 
