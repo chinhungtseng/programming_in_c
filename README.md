@@ -1,6 +1,6 @@
 # Programming in C 
 
-My exercise solutions for the books `Programming in C 4th Edition` written by Stephen G.Kochan
+My exercise solutions for the books [Programming in C 4th Edition](https://www.pearson.com/us/higher-education/program/Kochan-Programming-in-C-4th-Edition/PGM153468.html) written by Stephen G.Kochan
 
 ## Chapter
 
