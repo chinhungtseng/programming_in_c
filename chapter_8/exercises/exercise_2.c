@@ -60,23 +60,23 @@ struct date
 int main (void)
 {
   int timeDifference (struct date a, struct date b);
-  struct date time1, time2;
+  struct date date1, date2;
   
   printf("Enter start date: ");
-  scanf("%i%i%i", &time1.month, &time1.day, &time1.year);
+  scanf("%i%i%i", &date1.month, &date1.day, &date1.year);
 
   printf("Enter end date: ");
-  scanf("%i%i%i", &time2.month, &time2.day, &time2.year);
+  scanf("%i%i%i", &date2.month, &date2.day, &date2.year);
 
   printf("Number of elapsed days is %i days.\n", 
-    timeDifference(time1, time2));
+    timeDifference(date1, date2));
   
   return 0;
 }
 
 int parseDate (struct date d)
 {
-  int N;
+  int result;
 
   if (d.month <= 2)
   {
@@ -86,8 +86,9 @@ int parseDate (struct date d)
   else 
     d.month += 1;
 
-  N = (1461 * d.year / 4) + (153 * d.month / 5) + d.day;
-  return N;
+  result = (1461 * d.year) / 4 + (153 * d.month) / 5 + d.day;
+  
+  return result;
 }
 
 int timeDifference (struct date a, struct date b)
