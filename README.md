@@ -20,7 +20,7 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 
 * [Chapter 8](chapter_8/chapter_8.md): Working with Structures
 
-* Chapter 9: Charater Strings
+* [Chapter 9](chapter_9/chapter_9.md): Charater Strings
 
 * Chapter 10: Pointers
 
