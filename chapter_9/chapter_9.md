@@ -7,6 +7,12 @@
 * [Program 9.3](examples/prog9_3.c)
 * [Program 9.4](examples/prog9_4.c)
 * [Program 9.5](examples/prog9_5.c)
+* [Program 9.6](examples/prog9_6.c)
+* [Program 9.7](examples/prog9_7.c)
+* [Program 9.8](examples/prog9_8.c)
+* [Program 9.9](examples/prog9_9.c)
+* [Program 9.10](examples/prog9_10.c)
+* [Program 9.11](examples/prog9_11.c)
 
 ## Exercises
 
