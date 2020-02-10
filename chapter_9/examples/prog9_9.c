@@ -63,7 +63,7 @@ int main (void)
   char word[15];
   int  entries = 10;
   int  entry;
-  int  loopup (const struct entry dictionary[], 
+  int  lookup (const struct entry dictionary[], 
                const char search[], const int entries);
   
   printf("Enter word: ");
