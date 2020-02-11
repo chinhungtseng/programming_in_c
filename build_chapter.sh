@@ -14,6 +14,11 @@ fi
 
 chapter_name=chapter_${1}
 
+# update README.md
+old="Chapter ${1}"
+new="[$old]($chapter_name\/$chapter_name.md)"
+sed -i "" "s/${old}/${new}/" README.md
+
 if [[ ! -d "${chapter_name}" ]]; then
 
   echo "The ${chapter_name} is not exist, then create ${chapter_name} now"
