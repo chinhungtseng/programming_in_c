@@ -17,7 +17,6 @@
  */
 
 #include <stdio.h>
-#include <stdbool.h>
 
 int findString (const char s1[], const char s2[])
 {
