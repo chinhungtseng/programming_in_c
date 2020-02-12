@@ -28,12 +28,19 @@ int main (void)
 void insertString (char s1[], const char s2[], int index)
 {
   int nchar (const char text[]);
-  int i, j, s1Len = nchar(s1), s2Len = nchar(s2);
+  int s1Len = nchar(s1), s2Len = nchar(s2),
+      maxLen, i, j = 0;
   
-  for (i = index, j = 0; i < s1Len; ++i, ++j) {
+  if (index > s1Len)
+    return;
+  
+  maxLen = s1Len + s2Len;
+  
+  for (i = s1Len + 1; i >= index ; --i)
     s1[i + s2Len] = s1[i];
+  
+  for (i = index, j = 0; j < s2Len; ++i, ++j)
     s1[i] = s2[j];
-  }
 }
 
 int nchar (const char text[])

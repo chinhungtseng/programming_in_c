@@ -7,6 +7,7 @@
 
 export PATH=/bin:sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 
+# stop if no pass chapter number
 if [[ "$#" -ne 1 ]]; then
   echo "Usage: \"./build_chapter.sh n\", n is chapter number"
   exit 1;
@@ -21,6 +22,7 @@ sed -i "" "s/${old}/${new}/" README.md
 
 if [[ ! -d "${chapter_name}" ]]; then
 
+  # create directory
   echo "The ${chapter_name} is not exist, then create ${chapter_name} now"
   mkdir -p ${chapter_name}/{examples,exercises}
   
@@ -28,6 +30,7 @@ if [[ ! -d "${chapter_name}" ]]; then
   touch ${chapter_name}/examples/prog${1}_1.c
   touch ${chapter_name}/exercises/exercise_1.c
   
+  # add init file's content
   touch ${chapter_name}/${chapter_name}.md
   echo "# Chapter ${1}" >> ${chapter_name}/${chapter_name}.md
   echo "" >> ${chapter_name}/${chapter_name}.md
