@@ -22,7 +22,7 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 
 * [Chapter 9](chapter_9/chapter_9.md): Charater Strings
 
-* Chapter 10: Pointers
+* [Chapter 10](chapter_10/chapter_10.md): Pointers
 
 * Chapter 11: Operations on Bits
 
