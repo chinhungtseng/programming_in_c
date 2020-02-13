@@ -25,5 +25,8 @@
 * [Exerciese 7](exercises/exercise_7.c)
 * [Exerciese 8](exercises/exercise_8.c)
 * [Exerciese 9](exercises/exercise_9.c)
+* [Exerciese 10](exercises/exercise_10.c)
 * [Exerciese 11](exercises/exercise_11.c)
 * [Exerciese 12](exercises/exercise_12.c)
+* [Exerciese 13](exercises/exercise_13.c)
+* [Exerciese 14](exercises/exercise_14.c)
