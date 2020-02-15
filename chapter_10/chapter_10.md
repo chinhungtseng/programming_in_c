@@ -10,6 +10,13 @@
 * [Program 10.6](examples/prog10_6.c)
 * [Program 10.7](examples/prog10_7.c)
 * [Program 10.8](examples/prog10_8.c)
+* [Program 10.9](examples/prog10_9.c)
+* [Program 10.10](examples/prog10_10.c)
+* [Program 10.11](examples/prog10_11.c)
+* [Program 10.12](examples/prog10_12.c)
+* [Program 10.13](examples/prog10_13.c)
+* [Program 10.14](examples/prog10_14.c)
+* [Program 10.15](examples/prog10_15.c)
 
 ## Exercises
 
