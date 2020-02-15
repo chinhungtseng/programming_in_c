@@ -1,5 +1,5 @@
 /*
- * Program 10.10 Returning a Pointer form a Fucntion
+ * Program 10.10 Returning a Pointer from a Function
  */
 
 #include <stdio.h>

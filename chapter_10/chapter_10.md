@@ -20,4 +20,4 @@
 
 ## Exercises
 
-* [Exerciese 1](exercises/exercise_1.c)
+* [Exerciese 1](exercises/exercise_1.txt)

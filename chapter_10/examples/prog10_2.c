@@ -1,5 +1,5 @@
 /*
- * Program 10.2 More POinter Basics
+ * Program 10.2 More Pointer Basics
  */
 
 #include <stdio.h>

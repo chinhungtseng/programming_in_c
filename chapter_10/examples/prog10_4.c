@@ -1,5 +1,5 @@
 /*
- * Program 10.4 Using POinters to Structrues
+ * Program 10.4 Using Pointers to Structrues
  * 
  * The first program that illustrated structures, was rewritten using the 
  * concept of structrue pointers.

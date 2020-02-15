@@ -1,5 +1,5 @@
 /*
- * Program 10.6 Using Linded Lists
+ * Program 10.6 Using Linked Lists
  */
 
 #include <stdio.h>
