@@ -20,7 +20,7 @@ void removeEntry (struct entry *listPtr)
   if (listPtr->next == NULL)
     return;
   
-  listPtr->next = listPtr->next->next;
+  listPtr->next = (listPtr->next)->next;
 }
 
 void printList (struct entry *listPtr)
