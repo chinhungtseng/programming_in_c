@@ -24,7 +24,7 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 
 * [Chapter 10](chapter_10/chapter_10.md): Pointers
 
-* Chapter 11: Operations on Bits
+* [Chapter 11](chapter_11/chapter_11.md): Operations on Bits
 
 * Chapter 12: The Preprocessor
 
