@@ -32,8 +32,8 @@ unsigned int bit_test (unsigned int value, int n)
   unsigned int bit, intSize = int_size();
   
   n %= intSize;
-  bit = value >> (intSize - n) & 1;
-  
+  bit = (value << (n - 1)) >> (intSize - 1);
+    
   return bit;
 }
 
