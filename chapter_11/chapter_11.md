@@ -14,3 +14,6 @@
 * [Exerciese 3](exercises/exercise_3.c)
 * [Exerciese 4](exercises/exercise_4.c)
 * [Exerciese 5](exercises/exercise_5.c)
+* [Exerciese 6](exercises/exercise_6.c)
+* [Exerciese 7](exercises/exercise_7.c)
+* [Exerciese 8](exercises/exercise_8.c)
