@@ -26,7 +26,7 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 
 * [Chapter 11](chapter_11/chapter_11.md): Operations on Bits
 
-* Chapter 12: The Preprocessor
+* [Chapter 12](chapter_12/chapter_12.md): The Preprocessor
 
 * Chapter 13: Extending Data Types with the Enumerated Data Type, Type Definitions, and Data Type Conversions
 
