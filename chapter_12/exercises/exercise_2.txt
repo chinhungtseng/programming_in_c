@@ -1,0 +1,27 @@
+2. Locate the system header files <stdio.h>, <limits.h>, and <float.h> on your system
+   (on Unix systems, look inside the /usr/inlucde directory). Examine the files to 
+   see what's in them.
+   
+   This is solution how I find <stdio.h>, <limits.h>, and <float.h> on my system:
+   
+   1) My computer's OS is MacOS, so I search all files contains "stdio.h" word
+   under the root directory.
+   ```
+   $ sudo find / -name stdio.h
+   ```
+   and the result is:
+   ```
+   find: /Library/Application Support/com.apple.TCC: Operation not permitted
+   /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h
+   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/stdio.h
+   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdio.h
+   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/sys/stdio.h
+   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/stdio.h
+   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/stdio.h
+   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/sys/stdio.h
+   ```
+   2) Move to first result
+   ```
+   $ /System/Volumes/Data/Library/Developer/CommandLineTools/usr/include/c++/v1
+   ```
+   3) Examine each file's content
