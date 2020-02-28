@@ -1,0 +1,69 @@
+3. Given the following variable declarations:
+     
+     float     f = 1.00;
+     short int i = 100;
+     long int  l = 500L;
+     double    d = 15.00;
+   
+   and the sevent steps outlined in this chapter for conversion of 
+   operands in expressions, determine the type and value of the 
+   following expressions:
+   
+     f + i
+     l / d
+     i / l + f
+     l * i
+     f / 2
+     i / (d + f)
+     l / (i * 2.0)
+     l + i / (double) l 
+
+   -------------------------------------------------------------------------
+   My answers:
+   
+     f + i               => (float) 1.00 + (short int) 100 
+                         => (float) 1.00 + (int) 100
+                         => (float) 1.00 + (float) 100.00 
+                         => (float) 101.00
+                         
+     l / d               => (long int) 500L / (double) 15.00
+                         => (double) 500.00 / (double) 15.00
+                         => (double) 33.33
+                         
+     i / l + f           => (short int) 100 / (long int) 500L + (float) 1.00
+                         => (int) 100 / (long int) 500L + (float) 1.00
+                         => (long int) 100 / (long int) 500.00 + (float) 1.00
+                         => (long int) 0 / (float) 1.00
+                         => (float) 0 / (float) 1.00
+                         => (float) 1.0
+                         
+     l * i               => (long int) 500L * (short int) 100
+                         => (long int) 500L * (int) 100
+                         => (long int) 500L * (long int) 100
+                         => (long int) 50000L
+     
+     f / 2               => (float) 1.00 / (int) 2
+                         => (float) 1.00 / (float) 2
+                         => (float) 0.5
+     
+     i / (d + f)         => (short int) 100 / ( (double) 15.00 + (float) 1.00 )
+                         => (short int) 100 / ( (doube) 15.00 + (double) 1.00 )
+                         => (short int) 100 / (double) 16.00
+                         => (int) 100 / (double) 16.00
+                         => (double) 100.00 / (double) 16.00
+                         => (double) 6.25
+     
+     l / (i * 2.0)       => (long int) 500L / ( (short int) 100 * (float) 2.0 )
+                         => (long int) 500L / ( (int) 100 * (float) 2.0 )
+                         => (long int) 500L / ( (float) 100.00 * (float) 2.0 )
+                         => (long int) 500L / (float) 200.00
+                         => (float) 500.00 / (float) 200.00
+                         => (float) 2.5
+     
+     l + i / (double) l  => (long int) 500L + (short int) 100 / (double) ( (long int) 500L )
+                         => (long int) 500L + (short int) 100 / (double) 500.00
+                         => (long int) 500L + (int) 100 / (double) 500.00
+                         => (long int) 500L + (double) 100.00 / (double) 500.00
+                         => (long int) 500L + (double) 0.2
+                         => (double) 500.00 + (double) 0.2
+                         => (double) 500.2

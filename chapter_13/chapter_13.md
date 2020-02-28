@@ -7,3 +7,5 @@
 ## Exercises
 
 * [Exerciese 1](exercises/exercise_1.c)
+* [Exerciese 2](exercises/exercise_2.c)
+* [Exerciese 3](exercises/exercise_3.txt)
