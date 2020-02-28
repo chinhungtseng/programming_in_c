@@ -32,7 +32,7 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 
 * [Chapter 14](chapter_14/chapter_14.md): Working with Larger Programs
 
-* Chapter 15: Input and Output Operations in C
+* [Chapter 15](chapter_15/chapter_15.md): Input and Output Operations in C
 
 * Chapter 16: Miscellaneous and Advanced Features
 
