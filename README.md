@@ -30,7 +30,7 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 
 * [Chapter 13](chapter_13/chapter_13.md): Extending Data Types with the Enumerated Data Type, Type Definitions, and Data Type Conversions
 
-* Chapter 14: Working with Larger Programs
+* [Chapter 14](chapter_14/chapter_14.md): Working with Larger Programs
 
 * Chapter 15: Input and Output Operations in C
 
