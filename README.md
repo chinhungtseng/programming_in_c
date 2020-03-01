@@ -34,7 +34,7 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 
 * [Chapter 15](chapter_15/chapter_15.md): Input and Output Operations in C
 
-* Chapter 16: Miscellaneous and Advanced Features
+* [Chapter 16](chapter_16/chapter_16.md): Miscellaneous and Advanced Features
 
 * Chapter 17: Debugging Programs
 
