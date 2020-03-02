@@ -36,6 +36,6 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 
 * [Chapter 16](chapter_16/chapter_16.md): Miscellaneous and Advanced Features
 
-* Chapter 17: Debugging Programs
+* [Chapter 17](chapter_17/chapter_17.md): Debugging Programs
 
 * Chapter 18: Object-Oriented Programming
