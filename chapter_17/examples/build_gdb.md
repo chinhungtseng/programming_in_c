@@ -17,7 +17,7 @@ Unable to find Mach task port for process-id 45480: (os/kern) failure (0x5).
 
 2. Open the menu item **Keychain Access > Certificate Assistant > Create a Certificate**
     
-    ![Create-a-Certificate-Assistant](www/img/Create-a-Certificate-Assistant.png)
+    ![Create-a-Certificate-Assistant](../../www/img/Create-a-Certificate-Assistant.png)
 
 3. Create a certificate:
 
@@ -26,11 +26,11 @@ Unable to find Mach task port for process-id 45480: (os/kern) failure (0x5).
     * Certificate Type: Code Signing
     * enable `Let me override defaults`
     
-    ![Create-a-Certificate](www/img/Create-a-Certificate.png)
+    ![Create-a-Certificate](../../www/img/Create-a-Certificate.png)
 
 4. Click several times on Continue until you get to the **Specify a Location** and set Keychain to **System**
 
-    ![Create-a-Certificate-location](www/img/Create-a-Certificate-location.png)
+    ![Create-a-Certificate-location](../../www/img/Create-a-Certificate-location.png)
     
 5. In the terminal type following command line, and make sure that keychain is the `System.keychain`
 
@@ -59,7 +59,7 @@ Unable to find Mach task port for process-id 45480: (os/kern) failure (0x5).
     * Find and open(double click) gdb-cert on the Category area
     * Open the Trust item, and set **Code Signing** to **Always Trust**
     
-    ![](www/img/Create-a-Certificate-trust.png)
+    ![](../../www/img/Create-a-Certificate-trust.png)
     
 8. Create a gdb-entitlement.xml file containing the following
 
