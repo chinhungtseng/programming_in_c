@@ -38,4 +38,4 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 
 * [Chapter 17](chapter_17/chapter_17.md): Debugging Programs
 
-* Chapter 18: Object-Oriented Programming
+* [Chapter 18](chapter_18/chapter_18.md): Object-Oriented Programming

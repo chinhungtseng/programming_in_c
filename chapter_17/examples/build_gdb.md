@@ -87,6 +87,7 @@ Unable to find Mach task port for process-id 45480: (os/kern) failure (0x5).
     /usr/local/bin/gdb: valid on disk
     /usr/local/bin/gdb: satisfies its Designated Requirement
     ```
+    
 11. Refresh th system's certifications and code-signing data
 
     ```
