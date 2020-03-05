@@ -1,0 +1,103 @@
+peterde-MacBook-Air:examples PETER$ gdb prog17_5
+GNU gdb (GDB) 9.1
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-apple-darwin19.3.0".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from prog17_5...
+Reading symbols from /Users/peter/Documents/Project/programming_in_c/chapter_17/examples/prog17_5.dSYM/Contents/Resources/DWARF/prog17_5...
+(gdb) list main
+18
+19        return x;
+20      }
+21
+22      int main (void)
+23      {
+24        struct date today = {10, 11, 2014};
+25        int         array[5] = {1, 2, 3, 4, 5};
+26        struct date *newdate, foo();
+27        char        *string = "test string";
+(gdb) break main
+Breakpoint 1 at 0x100000e5d: file prog17_5.c, line 24.
+(gdb) run
+Starting program: /Users/peter/Documents/Project/programming_in_c/chapter_17/examples/prog17_5
+[New Thread 0xd03 of process 47649]
+[New Thread 0x1703 of process 47649]
+warning: unhandled dyld version (16)
+
+Thread 2 hit Breakpoint 1, main () at prog17_5.c:24
+24        struct date today = {10, 11, 2014};
+(gdb) step
+25        int         array[5] = {1, 2, 3, 4, 5};
+(gdb) print today
+$1 = {month = 10, day = 11, year = 2014}
+(gdb) print array
+$2 = {0, 0, 0, 0, -272633776}
+(gdb) step
+27        char        *string = "test string";
+(gdb) print array
+$3 = {1, 2, 3, 4, 5}
+(gdb) list 23,28
+23      {
+24        struct date today = {10, 11, 2014};
+25        int         array[5] = {1, 2, 3, 4, 5};
+26        struct date *newdate, foo();
+27        char        *string = "test string";
+28        int         i = 3;
+(gdb) list 27,32
+27        char        *string = "test string";
+28        int         i = 3;
+29
+30        newdate = (struct date *) malloc(sizeof(struct date));
+31        newdate->month = 11;
+32        newdate->day = 15;
+(gdb) step 5
+33        newdate->year = 2014;
+(gdb) print string
+$4 = 0x100000fa4 "test string"
+(gdb) print string[1]
+$5 = 101 'e'
+(gdb) print array[i]
+$6 = 4
+(gdb) print newdate
+$7 = (struct date *) 0x100500000
+(gdb) print newdate->day + i
+$8 = 18
+(gdb) print $7
+$9 = (struct date *) 0x100500000
+(gdb) info locals
+today = {month = 10, day = 11, year = 2014}
+array = {1, 2, 3, 4, 5}
+newdate = 0x100500000
+string = 0x100000fa4 "test string"
+i = 3
+(gdb) break foo
+Breakpoint 2 at 0x100000e09: file prog17_5.c, line 17.
+(gdb) continue
+Continuing.
+
+Thread 2 hit Breakpoint 2, foo (x=...) at prog17_5.c:17
+17        ++x.day;
+(gdb) print today
+No symbol "today" in current context.
+(gdb) print main::today
+$10 = {month = 10, day = 11, year = 2014}
+(gdb) step
+19        return x;
+(gdb) print x.day
+$11 = 12
+(gdb) continue
+Continuing.
+[Inferior 1 (process 47649) exited normally]
+(gdb) q
+peterde-MacBook-Air:examples PETER$
