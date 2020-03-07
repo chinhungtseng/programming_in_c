@@ -11,7 +11,7 @@
 
 ## Exercises
 
-* [Exerciese 1](exercises/exercise_1.c)
+no exercises
 
 ## Install gdb on Max OS X
 
