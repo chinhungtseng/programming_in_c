@@ -39,3 +39,15 @@ My exercise solutions for the books [Programming in C 4th Edition](https://www.p
 * [Chapter 17](chapter_17/chapter_17.md): Debugging Programs
 
 * [Chapter 18](chapter_18/chapter_18.md): Object-Oriented Programming
+
+## Other reference sources
+
+* [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
+
+* [GNU The C Preprocessor](https://gcc.gnu.org/onlinedocs/cpp/index.html)
+
+* [Using the GNU Compiler Collection (GCC)](https://gcc.gnu.org/onlinedocs/gcc/index.html#Top)
+
+* [n1570](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
+
+* [你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/%2F%40sysprog%2Fc-programming?fbclid=IwAR3txSx28rhn9fXsbd-TE_Nd_Tw4321WRg5OmamkVE2pJJDj0dCPUQQvlik)
