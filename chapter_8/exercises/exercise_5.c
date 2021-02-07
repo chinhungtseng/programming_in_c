@@ -96,7 +96,7 @@ struct date dateUpdate (struct date d)
   if (d.day != numberOfDays(d))
     nextDay = (struct date) {.month = d.month, .day = d.day + 1, .year = d.year};
   else if (d.month == 12)
-    nextDay = (struct date) {.month = 1, .day = d.day, .year = d.year + 1};
+    nextDay = (struct date) {.month = 1, .day = 1, .year = d.year + 1};
   else
     nextDay = (struct date) {.month = d.month + 1, .day = 1, .year = d.year};
   
@@ -123,13 +123,11 @@ int numberOfDays (struct date d)
 // Function to determine if it's a leap year;
 bool isLeapYear (struct date d)
 {
-  bool leapYearFlag;
+  bool leapYearFlag = false;
   
   if ((d.year % 4 == 0 && d.year % 100 != 0) || 
               d.year % 400 == 0)
     leapYearFlag = true;
-  else 
-    leapYearFlag = false;
   
   return leapYearFlag;
 }
